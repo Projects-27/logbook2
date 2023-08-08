@@ -57,7 +57,7 @@ useEffect(() => {
         <div>
         <Navbar funcss="card" fixedTop>
   <NavLogo>
-  <Typography heading="h5" text="Log Book" color="gradient"/>
+  <Typography heading="h6" bold text="Aites Logbook" color="gradient"/>
   </NavLogo>
   
   <LinkWrapper visibleLinks>
