@@ -179,7 +179,14 @@ export default function Register() {
             <Input defaultValue={me.Level} rounded bordered type="text" label="Level" funcss="level" fullWidth />
             </div>
             <div className="col sm-12 md-12 lg-12 padding">
-            <Input  defaultValue={me.Department} rounded bordered type="text" label="Department" funcss="department" fullWidth />
+            <Input  rounded bordered type="text" label="Department" funcss="department" fullWidth />
+            <select defaultValue={me.Department}  className="input borderedInput department fit" fullWidth style={{borderRadius:'3rem'}}>
+      <option value="" disabled selected>Select Department</option>
+  <option value="Business">Business</option>
+  <option value="Engineering">Engineering</option>
+  <option value="Agriculture and Natural Resources">Agriculture and Natural Resources</option>
+  <option value="Applied Science and Technology">Applied Science and Technology</option>
+          </select>
             </div>
      {
         supervisors ?

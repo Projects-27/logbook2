@@ -187,7 +187,13 @@ maxWidth="900px"
     <Input rounded label="Password" type='password' bordered fullWidth funcss="password" />
     </div>
     <div className="col sm-12 md-12 lg-12 padding">
-    <Input rounded label="Department" type='text' bordered fullWidth funcss="department" />
+    <select className="input borderedInput department fit" fullWidth style={{borderRadius:'3rem'}}>
+      <option value="" disabled selected>Select Department</option>
+  <option value="Business">Business</option>
+  <option value="Engineering">Engineering</option>
+  <option value="Agriculture and Natural Resources">Agriculture and Natural Resources</option>
+  <option value="Applied Science and Technology">Applied Science and Technology</option>
+          </select>
     </div>
   </div>
 
